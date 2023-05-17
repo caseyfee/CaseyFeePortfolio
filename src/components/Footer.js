@@ -1,33 +1,30 @@
 import React from 'react';
-import { Footer } from 'react-bootstrap';
-import { Fa } from 'react-bootstrap-icons';
-import { Container, Row, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
 
-function FooterComp() {
+const FooterComp = () => {
   return (
-    <Footer>
-      <Container>
-        <Row>
-          <Col md={4}>
-            <ListGroup>
-              <ListGroupItem><a href="#">About</a></ListGroupItem>
-              <ListGroupItem><a href="#">Contact</a></ListGroupItem>
-              <ListGroupItem><a href="#">Privacy Policy</a></ListGroupItem>
-            </ListGroup>
-          </Col>
-          <Col md={4}>
-            <ListGroup>
-              <ListGroupItem><a href="#"><Fa icon="facebook"/></a></ListGroupItem>
-              <ListGroupItem><a href="#"><Fa icon="twitter"/></a></ListGroupItem>
-              <ListGroupItem><a href="#"><Fa icon="linkedin"/></a></ListGroupItem>
-            </ListGroup>
-          </Col>
-          <Col md={4}>
+    <footer>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <ul className="list-unstyled">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div className="col-md-4">
+            <ul className="list-unstyled">
+              <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+          <div className="col-md-4">
             <p class="copyright">Copyright &copy; 2023 Casey Fee</p>
-          </Col>
-        </Row>
-      </Container>
-    </Footer>
+          </div>
+        </div>
+      </div>
+    </footer>
   );
 };
 
