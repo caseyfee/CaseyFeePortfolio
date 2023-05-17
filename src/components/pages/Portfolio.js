@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function Portfolio() {
+export default function Portfolio(props) {
     const cardStyle = {
       width: '18rem',
     };
