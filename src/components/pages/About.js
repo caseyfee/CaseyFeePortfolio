@@ -5,12 +5,11 @@ export default function About() {
     <div>
       <h1>About Page</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Hi there - I am an engineer who loves to learn and just started on the new career path of learning Full Stack Coding methods. My background was in chemical engineering through the lense of environmental compliance for the last 8 years and am excited to pivot to the tech field. In my free time I love reading, dancing, making pottery, and being outside.
+
+        At this moment in my career, I am seeking a role in a medium size company who create something that adds to the greater good of the world. This could take many forms and I'm excited to work with the career center to network and find my next position.
+
+        Don't hesitate to reach out if you have questions.
       </p>
     </div>
   );
