@@ -6,6 +6,7 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import FooterComp from './Footer';
 import PortfolioInfo from './pages/PortfolioInfo';
+// import IconPage from './IconPage';
 
 
 export default function PortfolioContainer() {

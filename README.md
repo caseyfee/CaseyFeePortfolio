@@ -19,6 +19,8 @@ Check it out here:
 
 ## Credits: 
 Thanks to my tutor - Dominique Meeks Gombe, classmates, and BCS TAs! Also learned a lot from the mini-project this past week.
+Bard
+https://dev.to/davidemaye/how-to-set-up-font-awesome-in-react-5a8d
 
 ## Questions:
 Contact me at: caseyfee3@gmail.com
