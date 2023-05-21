@@ -1,35 +1,62 @@
 import React from 'react';
+import triWebsitePhoto from './imgs/SundaeHomepage.png'
+
 
 export default function Portfolio(props) {
   const cardStyle = {
     width: '18rem',
   };
 
-  // Helper function that generates a random width for our placeholder images
-  const randomWidth = () => {
-    const number = Math.random() * (300 - 200) + 200;
-    return number.toString().split('.')[0];
+  const styles = {
+    img: {
+      width: "200px",
+      height: '200px',
+      borderRadius: '20%',
+      display: 'block'
+    }
   };
 
+  const projects = [
+    {
+        
+        name: 'Sunday Sundae Triathlon',
+        description: 'An inclusive DIY triathlon in south Seattle',
+        url: 'https://sundaesunday.herokuapp.com/',
+        scr: {triWebsitePhoto},
+    }
+    ,
+    {
+        name: 'EventDash',
+        description: 'A tool for folks with bad direction skills, but the need for adventure',
+        url: 'https://caseyfee.github.io/EventDash/',
+        scr: {triWebsitePhoto},
+    
+    }]
+
+  
+
   return (
+    projects.map ((project, i) => 
     <div className="container">
-      <div className="card" style={cardStyle}>
+      <div className="card" key={project.id} style={cardStyle}>
         <img
+          style={styles.img}
           className="card-img-top"
-          src={`http://placekitten.com/${randomWidth()}`}
-          alt="Card cap"
+          src={project.scr}
+          alt="Previous work"
         />
         <div className="card-body">
-          <h5 className="card-title">Name: {props.name}</h5>
-          <p className="card-text">Description: {props.description}</p>
-          <p className="card-text">ID: {props.id}</p>
-          <a href="#" className="btn btn-primary">
-            Adopt {props.name}
+          <h5 className="card-title">{project.name}</h5>
+          <p className="card-text">Description: {project.description}</p>
+          <a href={project.url} className="btn btn-primary" target="_blank">
+            {props.name} 
           </a>
         </div>
       </div>
     </div>
-  );
+  ));
+
+    
 }
 
 
