@@ -6,7 +6,7 @@ const FooterComp = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <ul className="list-unstyled">
+            <ul className="list-unstyled row">
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
               <li><a href="#">Privacy Policy</a></li>
@@ -15,7 +15,7 @@ const FooterComp = () => {
           <div className="col-md-4">
             <ul className="list-unstyled">
               <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i className="fab fa-spotify"></i></a></li>
               <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
             </ul>
           </div>
