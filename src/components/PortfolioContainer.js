@@ -1,19 +1,11 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-// import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import FooterComp from './Footer';
 import PortfolioInfo from './pages/PortfolioInfo';
-// import IconPage from './pages/IconPage';
-// // import the library
-// import { library } from '@fortawesome/fontawesome-svg-core'
 
-// // import your icons
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { fas } from '@fortawesome/free-solid-svg-icons'
-// import { far } from '@fortawesome/free-regular-svg-icons'
 
 
 export default function PortfolioContainer() {
@@ -21,8 +13,8 @@ export default function PortfolioContainer() {
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
-    if (currentPage === 'About') {
-      return <About />;
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     if (currentPage === 'Portfolio') {
       return <PortfolioInfo />;
@@ -30,7 +22,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    return <Resume />;
+    return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
