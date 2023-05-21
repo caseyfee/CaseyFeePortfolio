@@ -20,7 +20,7 @@ export default function Portfolio(props) {
     {
         
         name: 'Sunday Sundae Triathlon',
-        description: 'An inclusive DIY triathlon in south Seattle',
+        description: 'An inclusive DIYYYY triathlon in south Seattle',
         url: 'https://sundaesunday.herokuapp.com/',
         scr: {triWebsitePhoto},
     }
@@ -31,7 +31,13 @@ export default function Portfolio(props) {
         url: 'https://caseyfee.github.io/EventDash/',
         scr: {triWebsitePhoto},
     
-    }]
+    },
+  {
+    name: 'Horsieon',
+    description: 'A study and update to make a website more Accessible ',
+    url: 'https://caseyfee.github.io/Horsieon-Accessibility/',
+    scr: {triWebsitePhoto},
+  }]
 
   
 
