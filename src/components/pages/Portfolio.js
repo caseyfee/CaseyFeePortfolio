@@ -8,21 +8,10 @@ import dearDiary from './imgs/dearDiary.png';
 import RegExplained from './imgs/RegExplained.png';
 import PopQuiz from './imgs/PopQuiz.png';
 import WeatherWizard from './imgs/WeatherWizard.png';
-
 import '../style/styles.css';
 
 
 export default function Portfolio(props) {
-
-
-  const styles = {
-    img: {
-      width: "80%",
-      height: '80%',
-      borderRadius: '20%',
-      display: 'block'
-    }
-  };
 
   const projects = [
     {
@@ -65,8 +54,8 @@ export default function Portfolio(props) {
     },
     {
       name: 'Popquiz',
-      description: 'A backend for a social media site, currently used by critters',
-      url: 'https://github.com/caseyfee/OurSpace',
+      description: 'A quiz about bees you can take and keep track of your score on a leaderboard',
+      url: 'https://caseyfee.github.io/PopQuiz_java/',
       github: "https://github.com/caseyfee/PopQuiz_java",
       photo: PopQuiz,
     },
@@ -80,7 +69,6 @@ export default function Portfolio(props) {
     // https://github.com/caseyfee/gCal_who
     // https://caseyfee.github.io/gCal_who/
 
-    // https://github.com/caseyfee/PopQuiz_java
   ]
 
 // className={`mb-2 custom-col project-card-margin`} xl={4} lg={4} md={6} sm={12}
@@ -89,11 +77,10 @@ export default function Portfolio(props) {
     projects.map((project, i) =>
     <Row > 
       <Col sm > 
-      <div className="container row ">
-        <div className="cardStyle project col-sm-3" key={project.id} >
-          <div className='card text-center '>
+      <div className=" row col-sm-3">
+        <div className=" " key={project.id} >
+          <div className='card project text-center '>
             <img
-              style={styles.img}
               className="card-img-top"
               src={project.photo}
               alt="Previous work"

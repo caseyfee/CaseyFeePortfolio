@@ -6,8 +6,9 @@ import { faGithub, faSpotify, faLinkedin } from '@fortawesome/free-brands-svg-ic
 
 const FooterComp = () => {
   return (
-    <footer className='footer'>
-      <div className="container">
+    <body className='h-100 d-flex flex-column'>
+    <footer className='footer mt-auto py-3 fixed-bottom'>
+      <div className="">
         <div className="row">
           <div className="col-md-4">
           </div>
@@ -30,6 +31,7 @@ const FooterComp = () => {
         </div>
       </div>
     </footer>
+    </body>
   );
 };
 

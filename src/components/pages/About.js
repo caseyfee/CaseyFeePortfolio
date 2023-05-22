@@ -1,28 +1,19 @@
 import React from 'react';
 import photo from './imgs/portrait.jpg';
-
-const styles = {
-  img: {
-    width: "200px",
-    height: '200px',
-    borderRadius: '20%',
-    display: 'block'
-
-  }
-};
+import '../style/styles.css';
 
 export default function About() {
   return (
-    <div className='flex '>
+    <div className='row '>
       <h1>Casey Fee</h1>
-      <div>
-        <img style={styles.img}
-          className="card-img-top"
+      <div className = "selfie col-sm-4">
+        <img 
+          className="selfie"
           src={photo}
           alt="Selfie"
         />
       </div>
-      <div>
+      <div className = " col-sm-8">
         <p>
           Hey - I'm Casey Fee. I love to learn and am excited to be falling backwards into this new world of coding. Since 2014, when my first INDEX(MATCH) worked in my Excel Database, I've been diving deeper and deeper into what programming can do. Behind this passion is a chemical engineer degree and 8 years of enviornmentally and mission focussed career moves.
 

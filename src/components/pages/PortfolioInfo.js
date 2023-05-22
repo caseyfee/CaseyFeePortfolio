@@ -16,7 +16,7 @@ const projects = [
 
 export default function PortfolioInfo() {
     return (
-        <div>
+        <div className=''>
             <Portfolio name={projects.name} description={projects.description} url={projects.url} scr = {projects.scr} />
         </div>
     );
