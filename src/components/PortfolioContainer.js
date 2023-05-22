@@ -5,7 +5,6 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import FooterComp from './Footer';
 import PortfolioInfo from './pages/PortfolioInfo';
-import '../styles.css';
 
 
 export default function PortfolioContainer() {
@@ -28,16 +27,13 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className='flex ' >
-      {/* We are passing the currentPage from state and the function to update it */}
-      <div className='max-height-100vh max-width-15vw flex-column max-height-100vh max-width-15vw' >
+    <div className='col'>
+      
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      </div>
-      {/* Here we are calling the renderPage method which will return a component  */}
-      <div className='flex max-width-85vw'>
+      
+      <div className=''>
       {renderPage()}
       </div>
-      
       <div >
       <FooterComp />
       </div>

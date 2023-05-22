@@ -4,7 +4,7 @@ Welcome to my new and improved Portfolio. Hope you enjoy!!
 
 ## Description
 
-This portfolio was creating using React and deployed on github pages. A number of technologies were used including _______[casey insert here]
+This portfolio was creating using React and deployed on github pages. A number of technologies were used including React.js, express.js, node.js, _______[casey insert here]
 
 
 It showcases my work and deployed applications. 

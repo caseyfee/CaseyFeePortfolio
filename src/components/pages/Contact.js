@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import '../style/styles.css';
+
 
 export default function Contact() {
   const [name, setName] = useState('');
@@ -53,11 +55,12 @@ export default function Contact() {
     setMessage('');
   };
   return (
-    <div>
-      <h2>Contact Us</h2>
+    <div className='contactForm text-center '>
+      <h2>Send me a Note</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name</label>
+          <br></br>
           <input
             type="text"
             id="name"
@@ -67,6 +70,7 @@ export default function Contact() {
         </div>
         <div>
           <label htmlFor="email">Email</label>
+          <br></br>
           <input
             type="email"
             id="email"
@@ -76,6 +80,7 @@ export default function Contact() {
         </div>
         <div>
           <label htmlFor="message">Message</label>
+          <br></br>
           <textarea
             id="message"
             value={message}

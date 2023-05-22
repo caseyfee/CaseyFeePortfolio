@@ -1,16 +1,15 @@
 import React from 'react';
 import triWebsitePhoto from './imgs/SundaeHomepage.png'
+import '../style/styles.css';
 
 
 export default function Portfolio(props) {
-  const cardStyle = {
-    width: '18rem',
-  };
+
 
   const styles = {
     img: {
-      width: "200px",
-      height: '200px',
+      width: "80%",
+      height: '80%',
       borderRadius: '20%',
       display: 'block'
     }
@@ -71,32 +70,38 @@ export default function Portfolio(props) {
     }
     // https://github.com/caseyfee/gCal_who
     // https://caseyfee.github.io/gCal_who/
+
+    // https://github.com/caseyfee/PopQuiz_java
   ]
 
 
 
   return (
     projects.map((project, i) =>
-      <div className="container">
-        <div className="card" key={project.id} style={cardStyle}>
-          <img
-            style={styles.img}
-            className="card-img-top"
-            src={project.scr}
-            alt="Previous work"
-          />
-          <div className="card-body">
-            <h5 className="card-title">{project.name}</h5>
-            <p className="card-text">Description: {project.description}</p>
-            <a href={project.github} className="btn btn-primary" target="_blank" rel="noreferrer">
-            GitHub</a>
-            <a href={project.url} className="btn btn-primary" target="_blank" rel="noreferrer">
-              {props.name}
-            </a>
+      <div className="container row">
+        <div className="cardStyle project col-sm-3" key={project.id} >
+          <div className='card text-center '>
+            <img
+              style={styles.img}
+              className="card-img-top"
+              src={project.scr}
+              alt="Previous work"
+            />
+            <div className="card-body">
+              <h5 className="card-title">{project.name}</h5>
+              <p className="card-text">Description: {project.description}</p>
+              <a href={project.github} className="btn btn-primary" target="_blank" rel="noreferrer">
+                GitHub</a>
+              <a href={project.url} className="btn btn-primary" target="_blank" rel="noreferrer">
+                Launched
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    ));
+    )
+
+  );
 
 
 }
