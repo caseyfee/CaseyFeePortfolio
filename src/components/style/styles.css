@@ -42,7 +42,12 @@ nav {
     justify-content: space-around;
     gap: 6px;
     background-color: var(--white);
-    margin-bottom: 10px;
+    margin: 10px;
+    
+}
+
+.card >img {
+    width: 100%;
 }
 
 .card {
@@ -65,6 +70,21 @@ nav {
     border-radius: 10px;
     align-content: center;
     justify-content: center;
+}
+
+.resumeSummary {
+    border: 1px solid white;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+
+}
+
+.typedResume {
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 @media screen and (max-width: 768px) {

@@ -9,7 +9,7 @@ const projects = [
         name: '',
         description: '',
         url: '',
-        scr: '',
+        github: '',
     }
     ,
     ]
