@@ -10,11 +10,6 @@ const FooterComp = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            {/* <ul className="list-unstyled row">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul> */}
           </div>
           <div className="col-md-4">
             <ul className="list-unstyled"  >
@@ -27,11 +22,6 @@ const FooterComp = () => {
               <a href="https://open.spotify.com/user/12124142261" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faSpotify} />
               </a>
-
-
-              {/* <li><a href="https://github.com/caseyfee"><i className="fab fa-facebook-f"></i></a></li>
-              <li><a href="https://open.spotify.com/user/12124142261"><i className="fab fa-spotify"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/cfee/"><i className="fab fa-linkedin-in"></i></a></li> */}
             </ul>
           </div>
           <div className="col-md-4">

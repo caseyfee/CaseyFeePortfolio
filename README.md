@@ -21,6 +21,9 @@ Check it out here:
 Thanks to my tutor - Dominique Meeks Gombe, classmates, and BCS TAs! Also learned a lot from the mini-project this past week.
 Bard
 https://dev.to/davidemaye/how-to-set-up-font-awesome-in-react-5a8d
+https://www.npmjs.com/package/url
+https://developer.mozilla.org/en-US/docs/Web/API/Blob
+
 
 
 ## Questions:

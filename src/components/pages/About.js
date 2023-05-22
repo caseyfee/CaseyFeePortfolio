@@ -13,7 +13,7 @@ const styles = {
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>Casey Fee</h1>
       <p>
         <img style={styles.img}
           className="card-img-top"

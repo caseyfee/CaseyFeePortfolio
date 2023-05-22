@@ -1,19 +1,34 @@
 import React from 'react';
+// import Styles from './styles'
 // import PDFViewer from 'react-pdf';
 // import pdfFile from ''
-import resume from './imgs/Resume.pdf';
+// import resumeDoc from './imgs/portrait.jpg';
+// import { fileURLToPath } from 'url';
+// const path = './imgs/portrait.jpg';
 
 export default function Resume() {
+  // function downloadDocument() {
+  
+  //   fetch(fileURLToPath(path))
+  //     .then((response) => response.blob())
+  //     .then((blob) => (
+  //       <a href={window.URL.createObjectURL(blob)} download={path}>
+  //         Download Document
+  //       </a>
+  //     ));
+  // }
+  
+ 
   return (
     <div>
       <h1>Resume</h1>
-      <div>
+      <div >
         <p>What you need to know</p>
         <ul>
-          <li>Passionate engiener who loves to learn</li>
-          <li>Dynamic successful career managing, sustaining, and improving systems</li>
+          <li>Passionate engineer who loves to learn</li>
+          <li>Dynamic and successful successful career managing, sustaining, and improving systems</li>
           <li>Mission focused</li>
-          <a href="./imgs/Resume.pdf" download={resume}>Download Resume</a>
+          <a href="https://drive.google.com/file/d/1jqQ2II3jsyrY5Bq0aKBzfW7u8I3MZ_w3/view?usp=sharing" target='_blank' rel="noreferrer">Downloadable Resume</a>
 
         </ul>
       </div>
