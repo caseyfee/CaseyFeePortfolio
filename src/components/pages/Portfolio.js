@@ -77,7 +77,7 @@ export default function Portfolio(props) {
     projects.map((project, i) =>
     <Row > 
       <Col sm > 
-      <div className=" row col-sm-3">
+      <div className=" projects row col-sm-3">
         <div className=" " key={project.id} >
           <div className='card project text-center '>
             <img

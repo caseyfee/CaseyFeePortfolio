@@ -1,6 +1,8 @@
 * {
     background-color: #27474E;
     color: white;
+    scroll-behavior: smooth;
+
 }
 
 .selfie {
@@ -72,9 +74,14 @@ nav {
     border-radius: 10px;
     align-content: center;
     justify-content: center;
-    width: '100%';
+    /* width: '100%'; */
     margin: auto;
     background-color: bisque;
+
+}
+
+.projects{
+    align-content: center;
 
 }
 
