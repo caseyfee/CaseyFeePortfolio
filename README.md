@@ -9,7 +9,7 @@ This portfolio was creating using React and deployed on github pages. A number o
 
 It showcases my work and deployed applications. 
 
-Check it out here:
+Check it out here: https://caseyfee.github.io/CaseyFeePortfolio/
 
 
 ## Table of Contents: 
