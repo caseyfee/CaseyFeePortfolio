@@ -25,12 +25,11 @@ export default function Portfolio(props) {
     }
     ,
     {
-      name: 'EventDash',
-      description: 'A tool for folks with bad direction skills, but the need for adventure',
-      url: 'https://caseyfee.github.io/EventDash/',
-      github: "https://github.com/caseyfee/EventDash",
-      photo: EventDash,
-
+      name: 'Popquiz',
+      description: 'A quiz about bees you can take and keep track of your score on a leaderboard',
+      url: 'https://caseyfee.github.io/PopQuiz_java/',
+      github: "https://github.com/caseyfee/PopQuiz_java",
+      photo: PopQuiz,
     },
     {
       name: 'Horsieon',
@@ -39,6 +38,15 @@ export default function Portfolio(props) {
       github: "https://github.com/caseyfee/Horsieon-Accessibility",
       photo: Horsieon,
     },
+    {
+      name: 'EventDash',
+      description: 'A tool for folks with bad direction skills, but the need for adventure',
+      url: 'https://caseyfee.github.io/EventDash/',
+      github: "https://github.com/caseyfee/EventDash",
+      photo: EventDash,
+
+    },
+   
     {
       name: 'dearDiary',
       description: 'A simple note taking application you can keep track of thoughts ',
@@ -53,13 +61,7 @@ export default function Portfolio(props) {
     //   github: "https://gist.github.com/caseyfee",
     //   photo: RegExplained,
     // },
-    {
-      name: 'Popquiz',
-      description: 'A quiz about bees you can take and keep track of your score on a leaderboard',
-      url: 'https://caseyfee.github.io/PopQuiz_java/',
-      github: "https://github.com/caseyfee/PopQuiz_java",
-      photo: PopQuiz,
-    },
+   
     // ,
     {
       name: 'Weather Wizard',

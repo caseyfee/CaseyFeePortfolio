@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import '../style/styles.css';
 
 
+
 export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -56,6 +57,7 @@ export default function Contact() {
   };
   return (
     <div className='contactForm text-center '>
+      
       <h2>Send me a Note</h2>
       <form onSubmit={handleSubmit}>
         <div>

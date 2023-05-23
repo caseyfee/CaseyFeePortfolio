@@ -12,15 +12,27 @@ img {
     display: block;
 }
 
+/* about me */
+.name {
+    margin: auto;
+    margin-left: 20 px;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .selfie {
 
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 20%;
     margin: 25px;
+    justify-content: center;
+    align-items: center;
 
 }
 
+/* navbar */
 .nav-item {
     background-color: #27474E;
     border: none;
@@ -42,11 +54,14 @@ nav {
     margin-right: 50px;
 }
 
+
+/* contact */
 .contactForm {
     justify-content: center;
     width: 100%;
 }
 
+/* projects */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +73,7 @@ nav {
     padding: 5px;
 }
 
-.h-300{
+.h-300 {
     max-height: 400px;
 }
 
@@ -69,7 +84,7 @@ nav {
 .card {
     margin: 9px;
     gap: 5px;
-    
+
     /* flex-grow: 0; */
 }
 
@@ -88,12 +103,13 @@ nav {
 
 }
 
-.projects{
+.projects {
     align-content: center;
     justify-content: center;
 
 }
 
+/* resume section */
 .resumeSummary {
     border: 1px solid white;
     margin-top: 5%;
@@ -109,6 +125,26 @@ nav {
     margin-left: 15%;
 }
 
+/* footer */
+.footer {
+    background-color: #3D938B;
+    flex: 0 0 50px;
+    /* margin-top: auto; */
+    /* min-height: 100vh; */
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     main,
@@ -120,7 +156,7 @@ nav {
 
     .project {
         display: flex;
-        height: 350px;
+        height: auto;
         width: 100%;
         align-content: center;
         justify-content: center;
@@ -131,4 +167,6 @@ nav {
         max-height: 30%;
         /* padding: 20px; */
     }
+
+
 }
