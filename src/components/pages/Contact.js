@@ -59,7 +59,7 @@ export default function Contact() {
     <div className='contactForm text-center '>
       
       <h2>Send me a Note</h2>
-      <form onSubmit={handleSubmit}>
+      <form action = "https://getform.io/f/fa90ba28-f632-4179-9dea-e67f8ba5cf8c" method="POST" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name</label>
           <br></br>

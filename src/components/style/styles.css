@@ -10,14 +10,17 @@ img {
     height: auto;
     border-radius: 5%;
     display: block;
+    animation: 'drop-in 1s ease 200ms backwards';
+
 }
 
 /* about me */
 .name {
     margin: auto;
-    margin-left: 20 px;
+    margin-left: 20px;
     justify-content: center;
     align-items: center;
+    animation: 'drop-in 1s ease 200ms backwards';
 }
 
 
@@ -27,9 +30,16 @@ img {
     height: 200px;
     border-radius: 20%;
     margin: 25px;
+    margin-left: 55px;
     justify-content: center;
     align-items: center;
+    animation: 'drop-in 1s ease 200ms backwards';
 
+}
+
+.aboutMe{
+    margin-top: 25px;
+    padding: 20px;
 }
 
 /* navbar */
@@ -144,6 +154,14 @@ nav {
         transform: translate(0px);
     }
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -168,5 +186,13 @@ nav {
         /* padding: 20px; */
     }
 
+    .aboutMe{
+        margin: 25px;
+        text-align: center;
+        padding: 20px;
+    }
 
+    .footer {
+        text-align: center;
+    }
 }

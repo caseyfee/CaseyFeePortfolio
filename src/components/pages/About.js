@@ -13,7 +13,7 @@ export default function About() {
           alt="Selfie"
         />
       </div>
-      <div className="col-sm-9 ">
+      <div className="col-sm-9 aboutMe">
         <p>
           Hey - I'm Casey Fee. I love to learn and am excited to be falling backwards into this new world of coding. Since 2014, when my first INDEX(MATCH) worked in my Excel Database, I've been diving deeper and deeper into what programming can do.
           <br></br>
