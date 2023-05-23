@@ -1,11 +1,12 @@
 import React from 'react';
-import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import triWebsitePhoto from './imgs/SundaeHomepage.png';
 import EventDash from './imgs/EventDash.png';
 import Horsieon from './imgs/Horiseon.png';
 import dearDiary from './imgs/dearDiary.png';
-import RegExplained from './imgs/RegExplained.png';
+// import RegExplained from './imgs/RegExplained.png';
 import PopQuiz from './imgs/PopQuiz.png';
 import WeatherWizard from './imgs/WeatherWizard.png';
 import '../style/styles.css';
@@ -20,7 +21,7 @@ export default function Portfolio(props) {
       description: 'An inclusive DIY triathlon in south Seattle',
       url: 'https://sundaesunday.herokuapp.com/',
       github: "https://github.com/caseyfee/SundaeSundayTriathlon",
-      photo: triWebsitePhoto ,
+      photo: triWebsitePhoto,
     }
     ,
     {
@@ -45,13 +46,13 @@ export default function Portfolio(props) {
       github: "https://github.com/caseyfee/dearDiary",
       photo: dearDiary,
     },
-    {
-      name: 'RegExplained',
-      description: 'An article I wrote explaining how to understand Regex ',
-      url: 'https://gist.github.com/caseyfee/4ff3d7f2057cf90f1cb0436bcd809877',
-      github: "https://gist.github.com/caseyfee",
-      photo: RegExplained,
-    },
+    // {
+    //   name: 'RegExplained',
+    //   description: 'An article I wrote explaining how to understand Regex ',
+    //   url: 'https://gist.github.com/caseyfee/4ff3d7f2057cf90f1cb0436bcd809877',
+    //   github: "https://gist.github.com/caseyfee",
+    //   photo: RegExplained,
+    // },
     {
       name: 'Popquiz',
       description: 'A quiz about bees you can take and keep track of your score on a leaderboard',
@@ -59,6 +60,7 @@ export default function Portfolio(props) {
       github: "https://github.com/caseyfee/PopQuiz_java",
       photo: PopQuiz,
     },
+    // ,
     {
       name: 'Weather Wizard',
       description: 'A weather app with the everyday information you need',
@@ -71,40 +73,38 @@ export default function Portfolio(props) {
 
   ]
 
-// className={`mb-2 custom-col project-card-margin`} xl={4} lg={4} md={6} sm={12}
+  // className={`mb-2 custom-col project-card-margin`} xl={4} lg={4} md={6} sm={12}
 
   return (
-    projects.map((project, i) =>
-    <Row > 
-      <Col sm > 
-      <div className=" projects row col-sm-3">
-        <div className=" " key={project.id} >
-          <div className='card project text-center '>
-            <img
-              className="card-img-top"
-              src={project.photo}
-              alt="Previous work"
-            />
-            <div className="card-body">
-              <h5 className="card-title">{project.name}</h5>
-              <p className="card-text">Description: {project.description}</p>
-              <a href={project.github} className="btn btn-primary" target="_blank" rel="noreferrer">
-                GitHub</a>
-              <a href={project.url} className="btn btn-primary" target="_blank" rel="noreferrer">
-                Launched
-              </a>
+    <Container >
+      <Row>
+        {projects.map((project, i) =>
+          <Col md={4} className="justify-content-center" >
+            <div className="card projects row">
+              <div className="h-300" key={project.id} >
+                <div className=' project text-center '>
+                  <img
+                    className="card-img-top"
+                    src={project.photo}
+                    alt="Previous work"
+                  />
+                  <div className="">
+                    <h5 className="card-title">{project.name}</h5>
+                    <p className="card-text">{project.description}</p>
+                    <a href={project.github} className="btn btn-primary" target="_blank" rel="noreferrer">
+                      GitHub</a>
+                    <a href={project.url} className="btn btn-primary" target="_blank" rel="noreferrer">
+                      Launched
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      </Col>
+          </Col>
+        )}
       </Row>
-    )
-
-  );
-
-
-}
+    </Container>
+  )}
 
 
 
