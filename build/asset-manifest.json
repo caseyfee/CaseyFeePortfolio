@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2cab247.css",
-    "main.js": "/static/js/main.1864d716.js",
-    "index.html": "/index.html",
-    "main.c2cab247.css.map": "/static/css/main.c2cab247.css.map",
-    "main.1864d716.js.map": "/static/js/main.1864d716.js.map"
+    "main.css": "/CaseyFeePortfolio/static/css/main.4202cddc.css",
+    "main.js": "/CaseyFeePortfolio/static/js/main.c0d84641.js",
+    "static/media/Horiseon.png": "/CaseyFeePortfolio/static/media/Horiseon.83f810af64eb019455db.png",
+    "static/media/PopQuiz.png": "/CaseyFeePortfolio/static/media/PopQuiz.db153f17632d428c4731.png",
+    "static/media/portrait.jpg": "/CaseyFeePortfolio/static/media/portrait.4a9310f892de3649a6f7.jpg",
+    "static/media/SundaeHomepage.png": "/CaseyFeePortfolio/static/media/SundaeHomepage.69012933d0586912d8fb.png",
+    "static/media/EventDash.png": "/CaseyFeePortfolio/static/media/EventDash.2b3f233487c528497e6f.png",
+    "static/media/WeatherWizard.png": "/CaseyFeePortfolio/static/media/WeatherWizard.bb581bb934fe3733132e.png",
+    "static/media/dearDiary.png": "/CaseyFeePortfolio/static/media/dearDiary.028d544435c99242bbba.png",
+    "index.html": "/CaseyFeePortfolio/index.html",
+    "main.4202cddc.css.map": "/CaseyFeePortfolio/static/css/main.4202cddc.css.map",
+    "main.c0d84641.js.map": "/CaseyFeePortfolio/static/js/main.c0d84641.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.1864d716.js"
+    "static/css/main.4202cddc.css",
+    "static/js/main.c0d84641.js"
   ]
 }
