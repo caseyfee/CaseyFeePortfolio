@@ -16,10 +16,11 @@ Check it out here:
 - [Description](#description) 
 - [Credits](#credits) 
 - [Questions](#questions)
+- [Screenshots](#screenshots)
 
 ## Credits: 
 Thanks to my tutor - Dominique Meeks Gombe, classmates, and BCS TAs! Also learned a lot from the mini-project this past week.
-Bard
+Bard and the following articles:
 https://dev.to/davidemaye/how-to-set-up-font-awesome-in-react-5a8d
 https://www.npmjs.com/package/url
 https://developer.mozilla.org/en-US/docs/Web/API/Blob
@@ -29,4 +30,8 @@ https://developer.mozilla.org/en-US/docs/Web/API/Blob
 ## Questions:
 Contact me at: caseyfee3@gmail.com
 
+
+## Screenshots:
+![homepagePhoto](./src/components/pages/imgs/homepage.png)
+![projectsPhoto](./src/components/pages/imgs/projects.png)
 

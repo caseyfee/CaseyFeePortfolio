@@ -21,11 +21,8 @@ export default function About() {
           <br></br>
           Behind this passion is a chemical engineer degree and 8 years of enviornmentally and mission focused career moves.
 
-          At this moment in my career, I am seeking a role in a medium size company who create something that adds to the greater good of the world.
           <br></br>
-
-          <br></br>
-          In my free time you can find me either working with my hands making pottery, carving spoons, moving my body up a moutain or around a dance floor, or completely still in a library book.
+          In my free time you can find me either working with my hands making pottery, carving spoons, moving my body up a mountains, around a dance floor, or completely still in a library book.
 
         </p>
       </div>
