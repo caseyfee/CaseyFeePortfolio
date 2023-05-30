@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import About from './pages/About';
+import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import FooterComp from './Footer';
 import PortfolioInfo from './pages/PortfolioInfo';
+
 
 
 export default function PortfolioContainer() {
@@ -21,7 +23,10 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    return <About />;
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    return <Home />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
