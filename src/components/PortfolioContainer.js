@@ -6,8 +6,12 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import FooterComp from './Footer';
 import PortfolioInfo from './pages/PortfolioInfo';
+var url = "https://drive.google.com/file/d/1jqQ2II3jsyrY5Bq0aKBzfW7u8I3MZ_w3/view?usp=sharing"
 
-
+function openResume(url) {
+  const newWindow = window.open(url, "_blank");
+  newWindow.focus();
+}
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -15,7 +19,7 @@ export default function PortfolioContainer() {
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === 'Resume') {
-      return <Resume />;
+      return <openResume />
     }
     if (currentPage === 'Portfolio') {
       return <PortfolioInfo />;

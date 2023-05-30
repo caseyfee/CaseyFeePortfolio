@@ -138,17 +138,18 @@ nav {
 /* resume section */
 .resumeSummary {
     border: 1px solid white;
-    margin-top: 5%;
+    height: 30%;
+    /* margin-top: 5%;
     margin-right: 15%;
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 5%; */
 
 }
 
 .typedResume {
-    margin-top: 5%;
+    /* margin-top: 5%;
     margin-right: 15%;
-    margin-left: 15%;
+    margin-left: 15%; */
 }
 
 /* footer */

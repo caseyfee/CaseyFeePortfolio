@@ -7,8 +7,8 @@ export default function Resume() {
 
 
   return (
-    <div>
-      <div className='resumeSummary text-center' >
+    <div className='row'>
+      <div className='resumeSummary text-center col-sm-6' >
         <h2>What you need to know</h2>
         <h5>
           <ul>Passionate engineer who loves to learn</ul>
@@ -17,10 +17,8 @@ export default function Resume() {
           <a href="https://drive.google.com/file/d/1jqQ2II3jsyrY5Bq0aKBzfW7u8I3MZ_w3/view?usp=sharing" target='_blank' rel="noreferrer">Downloadable Resume</a>
         </h5>
       </div>
-      <p>
-        <div>
-          {/* <PDFViewer src={pdfFile} /> */}
-          <div className='typedResume'>
+
+          <div className='typedResume col-sm-6'>
             <div>
               <h1>Casey Fee</h1>
               <h2>Contact Information</h2>
@@ -148,7 +146,5 @@ export default function Resume() {
             </div>
           </div>
         </div>
-      </p>
-    </div>
   );
 }
