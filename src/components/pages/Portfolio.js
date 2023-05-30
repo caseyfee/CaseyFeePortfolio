@@ -25,7 +25,7 @@ export default function Portfolio(props) {
     }
     ,
     {
-      name: 'Popquiz',
+      name: 'Pop Quizzz',
       description: 'A quiz about bees you can take and keep track of your score on a leaderboard',
       url: 'https://caseyfee.github.io/PopQuiz_java/',
       github: "https://github.com/caseyfee/PopQuiz_java",
@@ -81,10 +81,10 @@ export default function Portfolio(props) {
     <Container >
       <Row>
         {projects.map((project, i) =>
-          <Col md={4} className="justify-content-center" >
-            <div className="card projects row">
+          <Col md={4} className="" >
+            <div className=" projects row">
               <div className="h-300" key={project.id} >
-                <div className=' project text-center '>
+                <div className='card project text-center '>
                   <img
                     className="card-img-top"
                     src={project.photo}

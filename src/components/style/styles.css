@@ -100,33 +100,24 @@ nav {
     padding: 5px;
 }
 
-.h-300 {
-    max-height: 400px;
-}
-
 .btn {
     margin: 5px;
 }
 
 .card {
     margin: 9px;
-    gap: 5px;
-
+    gap: 15px;
+    height: 350px;
     /* flex-grow: 0; */
 }
 
 
 .project {
     flex-grow: 0;
-    height: auto;
-    /* border-style: solid; */
-    /* border-width: 1px; */
-    /* border-radius: 10px; */
+    /* height: auto; */
     align-content: center;
     justify-content: center;
-    /* width: '100%'; */
     margin: auto;
-    /* background-color: bisque; */
 
 }
 
@@ -136,6 +127,14 @@ nav {
 
 }
 
+.card-img-top {
+    height: 170px;
+}
+
+.h-300 {
+    height: 350px;
+    margin: 8%;
+}
 /* resume section */
 .resumeSummary {
     border: 1px solid white;
@@ -154,10 +153,8 @@ nav {
 
 /* footer */
 .footer {
-    background-color: #3D938B;
     flex: 0 0 50px;
-    /* margin-top: auto; */
-    /* min-height: 100vh; */
+
 }
 
 @keyframes drop-in {

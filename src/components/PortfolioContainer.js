@@ -36,7 +36,7 @@ export default function PortfolioContainer() {
       
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       
-      <div className=''>
+      <div className='p-2 mx-auto'>
       {renderPage()}
       </div>
       <div >
