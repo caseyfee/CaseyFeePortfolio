@@ -4,7 +4,8 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import triWebsitePhoto from './imgs/SundaeHomepage.png';
 import EventDash from './imgs/EventDash.png';
-import Horsieon from './imgs/Horiseon.png';
+// import Horsieon from './imgs/Horiseon.png';
+import Shifa from './imgs/Shifa.png';
 import dearDiary from './imgs/dearDiary.png';
 // import RegExplained from './imgs/RegExplained.png';
 import PopQuiz from './imgs/PopQuiz.png';
@@ -31,13 +32,20 @@ export default function Portfolio(props) {
       github: "https://github.com/caseyfee/PopQuiz_java",
       photo: PopQuiz,
     },
-    {
-      name: 'Horsieon',
-      description: 'A study and update to make a website more Accessible ',
-      url: 'https://caseyfee.github.io/Horsieon-Accessibility/',
-      github: "https://github.com/caseyfee/Horsieon-Accessibility",
-      photo: Horsieon,
+     {
+      name: 'Shifa',
+      description: 'An app that connects doctors and indivduals with medical care',
+      url: 'https://shifa-wecare.herokuapp.com/',
+      github: "https://github.com/caseyfee/Shifa",
+      photo: Shifa,
     },
+    // {
+    //   name: 'Horsieon',
+    //   description: 'A study and update to make a website more Accessible ',
+    //   url: 'https://caseyfee.github.io/Horsieon-Accessibility/',
+    //   github: "https://github.com/caseyfee/Horsieon-Accessibility",
+    //   photo: Horsieon,
+    // },
     {
       name: 'EventDash',
       description: 'A tool for folks with bad direction skills, but the need for adventure',
