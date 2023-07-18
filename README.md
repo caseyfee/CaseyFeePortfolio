@@ -4,7 +4,7 @@ Welcome to my new and improved Portfolio. Hope you enjoy!
 
 ## Description
 
-This portfolio was creating using React and deployed on github pages. A number of technologies were used including React.js, express.js, node.js, and so much more. In the portfolio you will find links to my resume, a contact form, and other projects
+This portfolio was creating using React and deployed on github pages and it is UGLY I KNOW. A number of technologies were used including React.js, express.js, node.js, and so much more. In the portfolio you will find links to my resume, a contact form, and other projects...BUT I will be working on it.
 
 
 It showcases my work and deployed applications. 
