@@ -7,6 +7,7 @@ import '../style/styles.css';
 export default function About() {
   
   return (
+    
     <div className='row'>
       <div className="col-sm-3">
         <img
