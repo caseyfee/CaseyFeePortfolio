@@ -77,9 +77,17 @@ export default function Portfolio(props) {
       url: 'https://caseyfee.github.io/WeatherWizard/',
       github: "https://github.com/caseyfee/WeatherWizard",
       photo: WeatherWizard,
-    }
+    }, 
     // https://github.com/caseyfee/gCal_who
     // https://caseyfee.github.io/gCal_who/
+
+    {
+      name: 'Shifa',
+      description: 'An app that connects folks with pro-bono medical professionals',
+      url: 'https://shifa-wecare.herokuapp.com/',
+      github: "https://github.com/caseyfee/Shifa",
+      photo: WeatherWizard,
+    }
 
   ]
 
